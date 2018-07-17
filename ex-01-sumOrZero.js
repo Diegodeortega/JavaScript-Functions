@@ -6,6 +6,15 @@
 //
 //------------------------------------------------------------------
 
+function sumOrZero(numb1, numb2) {
+	if ((numb1 + numb2) < 0) {
+		return 0;
+	} else {
+		return numb1 + numb2;
+	}
+}
+
+
 console.log("====== sumOrZero ======")
 
 console.assert(sumOrZero(0, 5) === 5)
